@@ -32,8 +32,8 @@ const HomeLogin = () => {
                 data.map((el, i) => {
                     const titleLink = el.title.toLowerCase()
                     return (
-                        <Link href={`homelogin/${titleLink}`}>
-                            <div key={i} className={styles['items']}>
+                        <Link key={i} href={`homelogin/${titleLink}`}>
+                            <div className={styles['items']}>
                                 <div className={styles['img']}>{el.image}</div>
 
                                 <div className={styles['text-container']}>
