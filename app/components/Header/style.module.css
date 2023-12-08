@@ -1,0 +1,21 @@
+.header-inicial {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: inset 0 -1px 0 0 var(--border-primary);
+  }
+  
+  .container-by {
+    margin-left: 20px;
+    cursor: pointer;
+  }
+  
+  .container-icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70px;
+    margin-right: 20px;
+  }
